@@ -6,7 +6,7 @@ import timeGridPlugin from '@fullcalendar/timegrid';
 import interactionPlugin from '@fullcalendar/interaction';
 
 let eventGuid = 0;
-let todayStr = new Date().toISOString().replace(/T.*$/, ''); // YYYY-MM-DD of today
+let todayStr = new Date('2023-08-15').toISOString().replace(/T.*$/, ''); // YYYY-MM-DD of today
 
 export const INITIAL_EVENTS = [
   {
@@ -23,7 +23,7 @@ export const INITIAL_EVENTS = [
     id: createEventId(),
     title: 'Event 2',
     start: todayStr,
-    end: todayStr + 'T12:00:00',
+    end: todayStr + 'T24:00:00',
   },
 ];
 
@@ -46,7 +46,7 @@ export default class DemoApp extends React.Component {
             headerToolbar={{
               left: 'title prev,next',
               center: '',
-              right: 'dayGridMonth,dayGridWeek',
+              right: 'dayGridMonth,dayGridWeek, dayGridDay',
             }}
             initialView="dayGridMonth"
             firstDay={1}
