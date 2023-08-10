@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-router-shop-example/static/css/main.93f80f61.css",
-    "main.js": "/react-router-shop-example/static/js/main.489fcd5b.js",
+    "main.css": "/react-router-shop-example/static/css/main.acfd0985.css",
+    "main.js": "/react-router-shop-example/static/js/main.6ccebb69.js",
     "index.html": "/react-router-shop-example/index.html",
-    "main.93f80f61.css.map": "/react-router-shop-example/static/css/main.93f80f61.css.map",
-    "main.489fcd5b.js.map": "/react-router-shop-example/static/js/main.489fcd5b.js.map"
+    "main.acfd0985.css.map": "/react-router-shop-example/static/css/main.acfd0985.css.map",
+    "main.6ccebb69.js.map": "/react-router-shop-example/static/js/main.6ccebb69.js.map"
   },
   "entrypoints": [
-    "static/css/main.93f80f61.css",
-    "static/js/main.489fcd5b.js"
+    "static/css/main.acfd0985.css",
+    "static/js/main.6ccebb69.js"
   ]
 }
